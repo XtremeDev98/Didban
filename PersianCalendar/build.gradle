@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.didban.newcal"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0.0"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+    }
+
+    buildTypes {
+        debug {
+            resValue "string", "app_label", "@string/app_name_debug"
+            versionNameSuffix "-" + "git rev-parse --short HEAD".execute().text.trim()
+        }
+        release {
+            resValue "string", "app_label", "@string/app_name"
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+configurations.all {
+    resolutionStrategy {
+        eachDependency { DependencyResolveDetails details ->
+            if (details.requested.group == "com.google.firebase") {
+                if (details.requested.name == "firebase-messaging")
+                details.useVersion "20.0.0"
+            }
+        }
+    }
+}
+
+
+dependencies {
+
+    implementation 'me.cheshmak:analytics:5.0.2'
+    implementation "com.google.firebase:firebase-messaging:20.0.0"
+
+    implementation 'me.cheshmak:cheshmakplus:2.0.4'
+    implementation 'com.google.android.gms:play-services-ads:19.6.0'
+    implementation 'com.google.android.ads.consent:consent-library:1.0.8'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.google.android.apps.dashclock:dashclock-api:2.0.0'
+}

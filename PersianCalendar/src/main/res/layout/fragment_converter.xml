@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/rlLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/view_padding"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textSize="@dimen/text_size_description"
+                android:textColor="?attr/colorTextSecond"
+                android:id="@+id/calendarTypeTitle"
+                android:text="@string/select_type_date" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/calendarTypeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_description"
+                android:textColor="?attr/colorTextNormal"
+                android:prompt="@string/day"
+                android:entries="@array/calendar_type"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/containerDateSelector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:padding="@dimen/converter_padding"
+            android:layoutDirection="ltr"
+            android:weightSum="12">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/containerDaySelector"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/converter_padding"
+                android:layout_weight="3"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/converterLabelDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/day"
+                    android:layout_gravity="right"
+                    android:textSize="@dimen/text_size_description"
+                    android:textColor="?attr/colorTextSecond"/>
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/daySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30sp"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:foregroundGravity="right"
+                    android:textColor="?attr/colorTextNormal"
+                    android:prompt="@string/select_day"
+                    android:spinnerMode="dialog"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/containerMonthSelector"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/converter_padding"
+                android:layout_weight="5"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/converterLabelMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mount"
+                    android:layout_gravity="right"
+                    android:textSize="@dimen/text_size_description"
+                    android:textColor="?attr/colorTextSecond"/>
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/monthSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description"
+                    android:textColor="?attr/colorTextNormal"
+                    android:prompt="@string/select_mount"
+                    android:spinnerMode="dialog"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/containerYearSelector"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/converter_padding"
+                android:layout_weight="4"
+                android:layoutDirection="rtl"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/converterLabelYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/year"
+                    android:textSize="@dimen/text_size_description"
+                    android:textColor="?attr/colorTextSecond"/>
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/yearSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_description"
+                    android:textColor="?attr/colorTextNormal"
+                    android:prompt="@string/select_year"
+                    android:spinnerMode="dialog"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/info_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="?attr/colorCard"
+            android:layout_margin="@dimen/card_margin">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:divider="?attr/appDivider"
+                app:dividerPadding="@dimen/divider_margin"
+                app:showDividers="middle">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="right"
+                    android:padding="@dimen/card_padding">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/date0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:textColor="?attr/colorTextPrimary"
+                        android:textSize="@dimen/text_size_title"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/more_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="@dimen/card_padding">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/icon_size"
+                    android:layout_height="@dimen/icon_size"
+                    android:layout_marginLeft="@dimen/icon_margin"
+                    android:layout_toRightOf="@+id/dateContainer"
+                    android:tint="?attr/colorIcon"
+                    android:gravity="center"
+                    app:srcCompat="@drawable/ic_swap_vertical_circle" />
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/dateContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="right">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/date1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_size_description"
+                            android:textColor="?attr/colorTextNormal"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/date2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_size_description"
+                            android:textColor="?attr/colorTextNormal"
+                            android:layout_marginTop="@dimen/item_calendar_margin_top" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </RelativeLayout>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
+
+
+<me.cheshmak.cheshmakplussdk.advertise.CheshmakBannerAd
+android:id="@+id/cheshmak_banner"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+app:banner_size="BANNER_SMART"
+android:layout_alignParentBottom="true"
+android:layout_centerHorizontal="true" />
+    </RelativeLayout>
