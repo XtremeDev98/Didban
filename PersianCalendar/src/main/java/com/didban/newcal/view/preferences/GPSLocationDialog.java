@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.preferences;
+package com.didban.newcal.view.preferences;
 
 import android.Manifest;
 import android.content.Context;
@@ -17,9 +17,9 @@ import androidx.preference.PreferenceDialogFragmentCompat;
 import androidx.preference.PreferenceManager;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.util.Utils;
 import com.github.praytimes.Coordinate;
 
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.preferences;
+package com.didban.newcal.view.preferences;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,8 +7,8 @@ import androidx.preference.EditTextPreference;
 import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.Constants;
+import com.didban.newcal.util.Utils;
 
 /**
  * Created by ebraminio on 2/16/16.

@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.activity;
+package com.didban.newcal.view.activity;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -14,9 +14,9 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.util.Utils;
 import com.github.praytimes.PrayTime;
 
 import java.io.IOException;

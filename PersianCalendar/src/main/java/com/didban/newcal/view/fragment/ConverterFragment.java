@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.fragment;
+package com.didban.newcal.view.fragment;
 
 import android.os.Bundle;
 import androidx.annotation.Nullable;
@@ -11,10 +11,10 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.adapter.ShapedArrayAdapter;
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.adapter.ShapedArrayAdapter;
+import com.didban.newcal.util.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

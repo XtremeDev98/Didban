@@ -1,31 +1,30 @@
-package com.byagowi.didbanCal.view.fragment;
+package com.didban.newcal.view.fragment;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.Build;
 import android.os.Bundle;
 import androidx.fragment.app.DialogFragment;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragmentCompat;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.preferences.AthanNumericDialog;
-import com.byagowi.didbanCal.view.preferences.AthanNumericPreference;
-import com.byagowi.didbanCal.view.preferences.AthanVolumeDialog;
-import com.byagowi.didbanCal.view.preferences.AthanVolumePreference;
-import com.byagowi.didbanCal.view.preferences.GPSLocationDialog;
-import com.byagowi.didbanCal.view.preferences.GPSLocationPreference;
-import com.byagowi.didbanCal.view.preferences.LocationPreference;
-import com.byagowi.didbanCal.view.preferences.LocationPreferenceDialog;
-import com.byagowi.didbanCal.view.preferences.PrayerSelectDialog;
-import com.byagowi.didbanCal.view.preferences.PrayerSelectPreference;
-import com.byagowi.didbanCal.view.preferences.ShapedListDialog;
-import com.byagowi.didbanCal.view.preferences.ShapedListPreference;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.preferences.AthanNumericDialog;
+import com.didban.newcal.view.preferences.AthanNumericPreference;
+import com.didban.newcal.view.preferences.AthanVolumeDialog;
+import com.didban.newcal.view.preferences.AthanVolumePreference;
+import com.didban.newcal.view.preferences.GPSLocationDialog;
+import com.didban.newcal.view.preferences.GPSLocationPreference;
+import com.didban.newcal.view.preferences.LocationPreference;
+import com.didban.newcal.view.preferences.LocationPreferenceDialog;
+import com.didban.newcal.view.preferences.PrayerSelectDialog;
+import com.didban.newcal.view.preferences.PrayerSelectPreference;
+import com.didban.newcal.view.preferences.ShapedListDialog;
+import com.didban.newcal.view.preferences.ShapedListPreference;
 
 /**
  * Preference activity

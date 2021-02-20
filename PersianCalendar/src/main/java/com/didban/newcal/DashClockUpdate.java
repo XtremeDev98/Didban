@@ -1,6 +1,6 @@
-package com.byagowi.didbanCal;
+package com.didban.newcal;
 
-import com.byagowi.didbanCal.util.UpdateUtils;
+import com.didban.newcal.util.UpdateUtils;
 import com.google.android.apps.dashclock.api.DashClockExtension;
 
 public class DashClockUpdate extends DashClockExtension {

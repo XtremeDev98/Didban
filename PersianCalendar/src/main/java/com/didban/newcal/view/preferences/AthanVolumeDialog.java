@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.preferences;
+package com.didban.newcal.view.preferences;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -8,8 +8,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.SeekBar;
 
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.R;
+import com.didban.newcal.util.Utils;
 
 import java.io.IOException;
 

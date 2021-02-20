@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.service;
+package com.didban.newcal.service;
 
 import android.app.Service;
 import android.content.Intent;
@@ -7,8 +7,8 @@ import android.os.IBinder;
 import androidx.annotation.Nullable;
 import android.util.Log;
 
-import com.byagowi.didbanCal.util.UpdateUtils;
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.util.UpdateUtils;
+import com.didban.newcal.util.Utils;
 
 import java.lang.ref.WeakReference;
 

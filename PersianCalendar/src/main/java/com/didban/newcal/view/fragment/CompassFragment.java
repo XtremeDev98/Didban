@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.fragment;
+package com.didban.newcal.view.fragment;
 
 import android.content.Context;
 import android.hardware.Sensor;
@@ -13,9 +13,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.QiblaCompassView;
+import com.didban.newcal.R;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.QiblaCompassView;
 import com.github.praytimes.Coordinate;
 
 /**

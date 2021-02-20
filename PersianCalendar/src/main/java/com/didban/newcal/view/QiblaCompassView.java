@@ -1,6 +1,6 @@
 // copyedited from https://code.google.com/p/android-salat-times/source/browse/src/com/cepmuvakkit/times/view/QiblaCompassView.java
 // licensed under GPLv3
-package com.byagowi.didbanCal.view;
+package com.didban.newcal.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,7 +15,7 @@ import androidx.core.content.ContextCompat;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.byagowi.didbanCal.R;
+import com.didban.newcal.R;
 import com.cepmuvakkit.times.posAlgo.AstroLib;
 import com.cepmuvakkit.times.posAlgo.EarthHeading;
 import com.cepmuvakkit.times.posAlgo.Horizontal;

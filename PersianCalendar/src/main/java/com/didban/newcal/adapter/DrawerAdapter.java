@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.adapter;
+package com.didban.newcal.adapter;
 
 import android.content.res.TypedArray;
 import androidx.appcompat.widget.AppCompatImageView;
@@ -8,9 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.activity.MainActivity;
+import com.didban.newcal.R;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.activity.MainActivity;
 
 public class DrawerAdapter extends RecyclerView.Adapter<DrawerAdapter.ViewHolder> {
     private final MainActivity mainActivity;

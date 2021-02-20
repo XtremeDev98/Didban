@@ -1,7 +1,6 @@
-package com.byagowi.didbanCal;
+package com.didban.newcal;
 
 import android.app.Application;
-import android.util.Log;
 
 import me.cheshmak.android.sdk.core.Cheshmak;
 import me.cheshmak.cheshmakplussdk.core.CheshmakPlus;

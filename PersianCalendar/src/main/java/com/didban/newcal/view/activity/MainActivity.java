@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.activity;
+package com.didban.newcal.view.activity;
 
 import android.annotation.TargetApi;
 import android.content.BroadcastReceiver;
@@ -24,21 +24,18 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.adapter.DrawerAdapter;
-import com.byagowi.didbanCal.service.ApplicationService;
-import com.byagowi.didbanCal.util.UpdateUtils;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.fragment.ApplicationPreferenceFragment;
-import com.byagowi.didbanCal.view.fragment.CalendarFragment;
-import com.byagowi.didbanCal.view.fragment.CompassFragment;
-import com.byagowi.didbanCal.view.fragment.ConverterFragment;
-
-import java.util.Random;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.adapter.DrawerAdapter;
+import com.didban.newcal.service.ApplicationService;
+import com.didban.newcal.util.UpdateUtils;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.fragment.ApplicationPreferenceFragment;
+import com.didban.newcal.view.fragment.CalendarFragment;
+import com.didban.newcal.view.fragment.CompassFragment;
+import com.didban.newcal.view.fragment.ConverterFragment;
 
 import me.cheshmak.cheshmakplussdk.advertise.CheshmakInterstitialAd;
-import me.cheshmak.cheshmakplussdk.advertise.InterstitialCallback;
 
 /**
  * Program activity for android

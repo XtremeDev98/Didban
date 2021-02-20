@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.dialog;
+package com.didban.newcal.view.dialog;
 
 import android.app.Dialog;
 import android.content.DialogInterface;
@@ -12,10 +12,10 @@ import android.widget.AdapterView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.adapter.ShapedArrayAdapter;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.fragment.CalendarFragment;
+import com.didban.newcal.R;
+import com.didban.newcal.adapter.ShapedArrayAdapter;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.fragment.CalendarFragment;
 
 import calendar.CivilDate;
 import calendar.DateConverter;

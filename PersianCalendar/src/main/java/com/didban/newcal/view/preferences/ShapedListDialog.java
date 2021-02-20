@@ -1,12 +1,12 @@
-package com.byagowi.didbanCal.view.preferences;
+package com.didban.newcal.view.preferences;
 
 import android.content.DialogInterface;
 import android.os.Build;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceDialogFragmentCompat;
 
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.adapter.ShapedArrayAdapter;
+import com.didban.newcal.R;
+import com.didban.newcal.adapter.ShapedArrayAdapter;
 
 import java.util.Arrays;
 

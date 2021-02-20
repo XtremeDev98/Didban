@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.util;
+package com.didban.newcal.util;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -18,13 +18,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.Widget1x1;
-import com.byagowi.didbanCal.Widget2x2;
-import com.byagowi.didbanCal.Widget4x1;
-import com.byagowi.didbanCal.service.ApplicationService;
-import com.byagowi.didbanCal.view.activity.MainActivity;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.Widget1x1;
+import com.didban.newcal.Widget2x2;
+import com.didban.newcal.Widget4x1;
+import com.didban.newcal.service.ApplicationService;
+import com.didban.newcal.view.activity.MainActivity;
 import com.github.praytimes.Clock;
 import com.google.android.apps.dashclock.api.ExtensionData;
 

@@ -1,12 +1,12 @@
-package com.byagowi.didbanCal;
+package com.didban.newcal;
 
 import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
 
-import com.byagowi.didbanCal.service.ApplicationService;
-import com.byagowi.didbanCal.util.UpdateUtils;
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.service.ApplicationService;
+import com.didban.newcal.util.UpdateUtils;
+import com.didban.newcal.util.Utils;
 
 public class Widget2x2 extends AppWidgetProvider {
     @Override

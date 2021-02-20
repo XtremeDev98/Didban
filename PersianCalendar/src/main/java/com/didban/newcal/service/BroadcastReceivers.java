@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.service;
+package com.didban.newcal.service;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -7,10 +7,10 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.util.UpdateUtils;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.activity.AthanActivity;
+import com.didban.newcal.Constants;
+import com.didban.newcal.util.UpdateUtils;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.activity.AthanActivity;
 
 /**
  * Startup broadcast receiver

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.byagowi.didbanCal.view.preferences.ShapedPreferenceCategory
+    <com.didban.newcal.view.preferences.ShapedPreferenceCategory
         android:title="@string/general">
 
-        <com.byagowi.didbanCal.view.preferences.ShapedListPreference
+        <com.didban.newcal.view.preferences.ShapedListPreference
             android:defaultValue="fa"
             android:entries="@array/languageNames"
             android:entryValues="@array/languageKeys"
             android:key="AppLanguage"
             android:title="@string/language" />
 
-        <com.byagowi.didbanCal.view.preferences.ShapedListPreference
+        <com.didban.newcal.view.preferences.ShapedListPreference
             android:defaultValue="LightTheme"
             android:entries="@array/themeNames"
             android:entryValues="@array/themeKeys"
@@ -19,13 +19,13 @@
             android:summary="@string/select_skin"
             android:title="@string/skin" />
 
-        <com.byagowi.didbanCal.view.preferences.ShapedCheckBoxPreference
+        <com.didban.newcal.view.preferences.ShapedCheckBoxPreference
             android:defaultValue="true"
             android:key="PersianDigits"
             android:summary="@string/enable_persian_digits"
             android:title="@string/persian_digits" />
 
-        <com.byagowi.didbanCal.view.preferences.ShapedListPreference
+        <com.didban.newcal.view.preferences.ShapedListPreference
             android:defaultValue="0"
             android:entries="@array/islamicOffsetNames"
             android:entryValues="@array/islamicOffsetKeys"
@@ -33,18 +33,18 @@
             android:summary="@string/islamic_offset_summary"
             android:title="@string/islamic_offset" />
 
-    </com.byagowi.didbanCal.view.preferences.ShapedPreferenceCategory>
+    </com.didban.newcal.view.preferences.ShapedPreferenceCategory>
 
-    <com.byagowi.didbanCal.view.preferences.ShapedPreferenceCategory
+    <com.didban.newcal.view.preferences.ShapedPreferenceCategory
         android:title="@string/widget_notification_dashclock">
 
-        <com.byagowi.didbanCal.view.preferences.ShapedCheckBoxPreference
+        <com.didban.newcal.view.preferences.ShapedCheckBoxPreference
             android:defaultValue="true"
             android:key="NotifyDate"
             android:summary="@string/enable_notify"
             android:title="@string/notify_date" />
 
-        <com.byagowi.didbanCal.view.preferences.ShapedListPreference
+        <com.didban.newcal.view.preferences.ShapedListPreference
             android:defaultValue="#ffffffff"
             android:entries="@array/colorNames"
             android:entryValues="@array/colorKeys"
@@ -52,30 +52,30 @@
             android:summary="@string/select_widgets_text_color"
             android:title="@string/widget_text_color" />
 
-        <com.byagowi.didbanCal.view.preferences.ShapedCheckBoxPreference
+        <com.didban.newcal.view.preferences.ShapedCheckBoxPreference
             android:defaultValue="false"
             android:key="IranTime"
             android:summary="@string/showing_iran_time"
             android:title="@string/iran_time" />
 
-        <com.byagowi.didbanCal.view.preferences.ShapedCheckBoxPreference
+        <com.didban.newcal.view.preferences.ShapedCheckBoxPreference
             android:defaultValue="true"
             android:key="WidgetClock"
             android:summary="@string/showing_clock_on_widget"
             android:title="@string/clock_on_widget" />
 
-        <com.byagowi.didbanCal.view.preferences.ShapedCheckBoxPreference
+        <com.didban.newcal.view.preferences.ShapedCheckBoxPreference
             android:defaultValue="true"
             android:key="WidgetIn24"
             android:summary="@string/showing_clock_in_24"
             android:title="@string/clock_in_24" />
 
-    </com.byagowi.didbanCal.view.preferences.ShapedPreferenceCategory>
+    </com.didban.newcal.view.preferences.ShapedPreferenceCategory>
 
-    <com.byagowi.didbanCal.view.preferences.ShapedPreferenceCategory
+    <com.didban.newcal.view.preferences.ShapedPreferenceCategory
         android:title="@string/pray_times_calculation_setting">
 
-        <com.byagowi.didbanCal.view.preferences.ShapedListPreference
+        <com.didban.newcal.view.preferences.ShapedListPreference
             android:defaultValue="Tehran"
             android:entries="@array/prayMethodsNames"
             android:entryValues="@array/prayMethodsKeys"
@@ -83,31 +83,31 @@
             android:summary="@string/pray_methods_calculation"
             android:title="@string/pray_methods" />
 
-        <com.byagowi.didbanCal.view.preferences.GPSLocationPreference
+        <com.didban.newcal.view.preferences.GPSLocationPreference
             android:key="dummy"
             android:summary="@string/gps_location_help"
             android:title="@string/gps_location" />
 
-        <com.byagowi.didbanCal.view.preferences.LocationPreference
+        <com.didban.newcal.view.preferences.LocationPreference
             android:key="Location"
             android:summary="@string/location_help"
             android:title="@string/location" />
 
-        <com.byagowi.didbanCal.view.preferences.AthanNumericPreference
+        <com.didban.newcal.view.preferences.AthanNumericPreference
             android:defaultValue="0"
             android:digits="0123456789."
             android:inputType="numberDecimal"
             android:key="Latitude"
             android:title="@string/latitude" />
 
-        <com.byagowi.didbanCal.view.preferences.AthanNumericPreference
+        <com.didban.newcal.view.preferences.AthanNumericPreference
             android:defaultValue="0"
             android:digits="0123456789."
             android:inputType="numberDecimal"
             android:key="Longitude"
             android:title="@string/longitude" />
 
-        <com.byagowi.didbanCal.view.preferences.AthanNumericPreference
+        <com.didban.newcal.view.preferences.AthanNumericPreference
             android:defaultValue="0"
             android:digits="0123456789."
             android:inputType="numberDecimal"
@@ -115,28 +115,28 @@
             android:summary="@string/altitude_praytime"
             android:title="@string/altitude" />
 
-    </com.byagowi.didbanCal.view.preferences.ShapedPreferenceCategory>
+    </com.didban.newcal.view.preferences.ShapedPreferenceCategory>
 
-    <com.byagowi.didbanCal.view.preferences.ShapedPreferenceCategory
+    <com.didban.newcal.view.preferences.ShapedPreferenceCategory
         android:key="Athan"
         android:title="@string/athan">
 
-        <com.byagowi.didbanCal.view.preferences.AthanNumericPreference
+        <com.didban.newcal.view.preferences.AthanNumericPreference
             android:inputType="numberSigned"
             android:key="AthanGap"
             android:summary="@string/athan_gap_summary"
             android:title="@string/athan_gap" />
 
-        <com.byagowi.didbanCal.view.preferences.PrayerSelectPreference
+        <com.didban.newcal.view.preferences.PrayerSelectPreference
             android:key="AthanAlarm"
             android:summary="@string/athan_alarm_summary"
             android:title="@string/athan_alarm" />
 
-        <com.byagowi.didbanCal.view.preferences.AthanVolumePreference
+        <com.didban.newcal.view.preferences.AthanVolumePreference
             android:key="AthanVolume"
             android:summary="@string/athan_volume_summary"
             android:title="@string/athan_volume" />
 
-    </com.byagowi.didbanCal.view.preferences.ShapedPreferenceCategory>
+    </com.didban.newcal.view.preferences.ShapedPreferenceCategory>
 
 </androidx.preference.PreferenceScreen>

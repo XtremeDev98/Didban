@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.byagowi.didbanCal">
+    package="com.didban.newcal">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -24,13 +24,13 @@
         android:label="@string/app_label"
         android:supportsRtl="true"
         android:theme="@style/FullscreenTheme"
-        android:name="com.byagowi.didbanCal.ApplicationLoader">
+        android:name="com.didban.newcal.ApplicationLoader">
         <service
             android:name="me.cheshmak.android.sdk.core.push.CheshmakFirebaseMessagingService"
             tools:node="remove" />
 
         <activity
-            android:name="com.byagowi.didbanCal.view.activity.MainActivity"
+            android:name="com.didban.newcal.view.activity.MainActivity"
             android:resizeableActivity="true"
             android:exported="true"
             android:launchMode="singleTop"
@@ -43,14 +43,14 @@
         </activity>
 
         <activity
-            android:name="com.byagowi.didbanCal.view.activity.AthanActivity"
+            android:name="com.didban.newcal.view.activity.AthanActivity"
             android:excludeFromRecents="true"
             android:theme="@style/FullscreenTheme"
             android:configChanges="keyboardHidden|orientation|screenSize|screenLayout"
             android:launchMode="singleTop" />
 
         <receiver
-            android:name="com.byagowi.didbanCal.service.BroadcastReceivers"
+            android:name="com.didban.newcal.service.BroadcastReceivers"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -59,7 +59,7 @@
         </receiver>
 
         <receiver
-            android:name="com.byagowi.didbanCal.Widget1x1"
+            android:name="com.didban.newcal.Widget1x1"
             android:exported="false"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/widget_mini_name">
@@ -73,7 +73,7 @@
         </receiver>
 
         <receiver
-            android:name="com.byagowi.didbanCal.Widget4x1"
+            android:name="com.didban.newcal.Widget4x1"
             android:exported="false"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/widget_name">
@@ -87,7 +87,7 @@
         </receiver>
 
         <receiver
-            android:name="com.byagowi.didbanCal.Widget2x2"
+            android:name="com.didban.newcal.Widget2x2"
             android:exported="false"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/widget_name">
@@ -101,7 +101,7 @@
         </receiver>
 
         <service
-            android:name="com.byagowi.didbanCal.DashClockUpdate"
+            android:name="com.didban.newcal.DashClockUpdate"
             android:icon="@drawable/day31"
             android:label="@string/app_name"
             android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
@@ -119,7 +119,7 @@
         </service>
 
         <service
-            android:name="com.byagowi.didbanCal.service.ApplicationService"
+            android:name="com.didban.newcal.service.ApplicationService"
             android:label="Calendar Service" />
     </application>
 

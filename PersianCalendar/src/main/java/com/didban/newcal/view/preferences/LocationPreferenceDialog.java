@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.preferences;
+package com.didban.newcal.view.preferences;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.PreferenceDialogFragmentCompat;
@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.adapter.LocationAdapter;
+import com.didban.newcal.R;
+import com.didban.newcal.adapter.LocationAdapter;
 
 /**
  * persian_calendar

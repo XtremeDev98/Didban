@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.entity;
+package com.didban.newcal.entity;
 
 import com.github.praytimes.Coordinate;
 

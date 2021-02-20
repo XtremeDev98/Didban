@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.preferences;
+package com.didban.newcal.view.preferences;
 
 import android.os.Build;
 import androidx.preference.EditTextPreferenceDialogFragmentCompat;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.util.Utils;
 
 /**
  * Created by ebraminio on 2/21/16.

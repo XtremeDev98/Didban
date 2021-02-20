@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.adapter;
+package com.didban.newcal.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -6,8 +6,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.R;
+import com.didban.newcal.util.Utils;
 
 /**
  * Created by ebraminio on 2/17/16.

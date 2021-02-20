@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.adapter;
+package com.didban.newcal.adapter;
 
 import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;
@@ -7,11 +7,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.entity.CityEntity;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.preferences.LocationPreferenceDialog;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.entity.CityEntity;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.preferences.LocationPreferenceDialog;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.adapter;
+package com.didban.newcal.adapter;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -11,11 +11,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.entity.DayEntity;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.fragment.MonthFragment;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.entity.DayEntity;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.fragment.MonthFragment;
 
 import java.util.List;
 

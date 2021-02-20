@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal;
+package com.didban.newcal;
 
 public class Constants {
 

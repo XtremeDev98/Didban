@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.enums;
+package com.didban.newcal.enums;
 
 /**
  * Calendars Types

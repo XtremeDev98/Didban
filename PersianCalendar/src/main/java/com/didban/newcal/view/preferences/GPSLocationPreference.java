@@ -1,11 +1,11 @@
-package com.byagowi.didbanCal.view.preferences;
+package com.didban.newcal.view.preferences;
 
 import android.content.Context;
 import androidx.preference.DialogPreference;
 import androidx.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 
-import com.byagowi.didbanCal.util.Utils;
+import com.didban.newcal.util.Utils;
 
 /**
  * Created by ebrahim on 3/26/16.

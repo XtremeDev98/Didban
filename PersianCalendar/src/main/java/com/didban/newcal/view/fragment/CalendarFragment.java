@@ -1,4 +1,4 @@
-package com.byagowi.didbanCal.view.fragment;
+package com.didban.newcal.view.fragment;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -21,11 +21,11 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.byagowi.didbanCal.Constants;
-import com.byagowi.didbanCal.R;
-import com.byagowi.didbanCal.adapter.CalendarAdapter;
-import com.byagowi.didbanCal.util.Utils;
-import com.byagowi.didbanCal.view.dialog.SelectDayDialog;
+import com.didban.newcal.Constants;
+import com.didban.newcal.R;
+import com.didban.newcal.adapter.CalendarAdapter;
+import com.didban.newcal.util.Utils;
+import com.didban.newcal.view.dialog.SelectDayDialog;
 import com.github.praytimes.Clock;
 import com.github.praytimes.Coordinate;
 import com.github.praytimes.PrayTime;
